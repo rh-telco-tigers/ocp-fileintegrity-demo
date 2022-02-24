@@ -154,7 +154,7 @@ exit
 You will now need to wait for the tool to find the change. The AIDE scan can be resource intensive. By default, the scan will occur every 15 minutes.
 
 ```shell
-$ oc get fileintegritynodestatuses -n openshift-file-integrity\
+$ oc get fileintegritynodestatuses -n openshift-file-integrity
  NAME                                            NODE                       STATUS
 cluster-fileintegrity-ocp47-jzgl9-master-0       ocp47-jzgl9-master-0       Succeeded
 cluster-fileintegrity-ocp47-jzgl9-master-1       ocp47-jzgl9-master-1       Succeeded
